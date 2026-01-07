@@ -1,0 +1,30 @@
+.metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 32px;
+    text-align: left;
+    margin: 107px auto 0;
+   
+}
+
+.metrics h3{
+    color: #8E2424;
+    font-size: 60px;
+  
+}
+
+.metrics h4{
+    color: #101828;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 468px){
+    
+    .metrics{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    
+}

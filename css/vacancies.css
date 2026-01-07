@@ -1,0 +1,83 @@
+.vacancies .jobs{
+  margin-left: 256px;
+}
+.vacancies .section-title {
+  display: block;
+  background-color: rgba(206, 26, 26, 0.05);
+  width: 140px;
+  height: 28px;
+  border-radius: 15px;
+  align-items: center;
+  line-height: 28px;
+  margin: 192px auto 16px;
+}
+.vacancies h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.vacancies .team p{
+    font-size: 20px;
+    color: #667085;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vacancies img{
+    width: 1216px;
+    height: 400px;
+    margin-top: 64px;
+}
+
+.vacancies .categories {
+    box-sizing: border-box;
+    margin-top: 24px;
+    border: #EAECF0 1px solid;
+    border-radius: 10px;
+    width: 768px;
+    height: 136px;
+    padding: 24px;
+}
+
+.vacancies h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #101828;
+  margin-top: 64px;
+}
+
+.vacancies a {
+  text-decoration: none;
+  color: #101828;
+  font-size: 18px;
+
+}
+
+.vacancies .job-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    color: #667085;
+    gap: 24px;
+}
+
+@media screen and (max-width: 810px) {
+  .vacancies .jobs{
+    margin-left: 0;
+    text-align: center;
+  }
+  .vacancies .categories {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .vacancies .job-info{
+    flex-direction: column;
+    align-items: center;
+  }
+}

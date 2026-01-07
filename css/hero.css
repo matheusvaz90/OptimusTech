@@ -1,0 +1,22 @@
+.hero h1{
+    font-size:48px;
+    color: #101828;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.hero p{
+    font-size: 20px;
+    color:#667085 ;
+    text-align: center;
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 468px) {
+    .hero h1{
+        font-size: 36px;
+    }
+    .hero p{
+        font-size: 18px;
+    }
+}

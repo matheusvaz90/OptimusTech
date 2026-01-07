@@ -1,0 +1,39 @@
+.workers {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(206, 26, 26, 0.05);
+  margin: 96px 0 96px 0;
+  width: 100%;
+  max-width: 1216px;
+  height: auto;
+  padding: 64px 20px;
+}
+
+.workers h2,
+.workers p {
+  margin-bottom: 16px;
+}
+
+.workers p {
+  font-size: 36px;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 32px;
+}
+
+.workers img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+.workers h4{
+    font-size: 16px;
+    color: #101828;
+    margin: 0 0 4px 0;
+}
+
+.workers p{
+    font-size: 14px;
+    color: #667085;
+}

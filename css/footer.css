@@ -1,0 +1,53 @@
+footer {
+  box-sizing: border-box;
+  background-color: #f9fafb;
+  margin: 96px 0 96px 0;
+  width: 100%;
+  height: auto;
+  padding: 64px 20px;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 24px;
+  color: #101828;
+  margin-bottom: 16px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #667085;
+
+}
+
+.newsletter-box {
+  text-align: center;
+  margin: 24px;;
+}
+
+.newsletter-box input {
+  width: 300px;
+  padding: 12px 16px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  outline: none;
+  vertical-align: middle;
+}
+
+.newsletter-box button {
+  padding: 12px 24px;
+  background-color: #8e2424;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+footer .copyright p{
+    font-size: 16px;
+    color: #667085;
+    margin-top: 32px;
+}

@@ -1,0 +1,85 @@
+
+header .navbar {
+  display: flex;
+  display: flex;
+  align-items: center;        
+  justify-content: space-between; 
+  padding: 0;            
+  height: 80px;
+}
+
+header .navbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 26px;
+  gap: 8px;
+}
+
+header .navbar p {
+  font-size: 18px;
+  color: #3a404e;
+  font-weight: 500;
+}
+
+header .navbar .nav-links {
+  display: flex;
+  gap: 32px;
+  margin-top: 30px;
+
+}
+
+header .navbar .nav-links li a {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header .navbar .user-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 12px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+header .navbar .user-links li a {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header .navbar .user-links li .signup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 122px;
+  height: 44px;
+  background-color: #8e2424;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 16px 0;
+  }
+
+  header .navbar .nav-links {
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  header .navbar .user-links {
+    gap: 8px;
+    margin-top: 16px;
+  }
+}
