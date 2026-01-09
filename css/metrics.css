@@ -1,13 +1,20 @@
 .metrics .container{
+    border: none;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     gap: 32px;
     text-align: left;
     margin: 107px auto 0;
-    border:  5px solid  #8E2424;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
-    padding: 0 0 40px 30px;
+    border:  3.5px solid  #8E2424;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding:40px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.metric:hover {
+    transform: translateY(-5px); /* Um feedback tátil e suave ao passar o mouse */
 }
 
 

@@ -2,11 +2,20 @@
     margin-top: 96px;
 }
 
-.hero h1{
-    font-size:48px;
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
     color: #101828;
+    line-height: 1.2;
     text-align: center;
-    margin-top: 16px;
+}
+
+.hero h2.section-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8E44AD; 
+    margin-bottom: 12px;
 }
 
 .hero p{
