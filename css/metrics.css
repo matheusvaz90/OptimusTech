@@ -1,16 +1,10 @@
 .metrics .container{
-    border: none;
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    gap: 24px;
-    text-align: left;
-    margin: 107px auto 0;
-    border:  3.5px solid  #8E2424;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    padding:40px;
-    border-radius: 16px;
-    transition: transform 0.3s ease;
+    justify-content: center;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
 }
 
 .metric:hover {
@@ -18,7 +12,13 @@
 }
 
 .metric{
- flex: 1
+    flex: 1; 
+    text-align: center;
+    padding: 40px 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04); 
+    transition: transform 0.3s ease;
 }
 
 .metrics h3{
