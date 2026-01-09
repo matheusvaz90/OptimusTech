@@ -33,6 +33,7 @@ margin-left: 256px;
     width: 1216px;
     height: 400px;
     margin-top: 64px;
+    border-radius: 8px;
 }
 
 .vacancies .categories {
@@ -78,6 +79,11 @@ margin-left: 256px;
 }
 
 @media screen and (max-width: 810px) {
+.vacancies img{
+  max-width: 100%;
+  object-fit: cover;
+}
+
   .vacancies .jobs{
     margin-left: 0;
     text-align: center;

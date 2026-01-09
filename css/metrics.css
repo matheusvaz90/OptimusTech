@@ -7,10 +7,6 @@
     padding: 60px 20px;
 }
 
-.metric:hover {
-    transform: translateY(-5px); /* Um feedback tátil e suave ao passar o mouse */
-}
-
 .metric{
     flex: 1; 
     text-align: center;
@@ -20,6 +16,11 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04); 
     transition: transform 0.3s ease;
 }
+
+.metric:hover {
+    transform: translateY(-5px);
+}
+
 
 .metrics h3{
     color: #8E2424;
@@ -38,7 +39,8 @@
 
 @media screen and (max-width: 468px){
     
-    .metrics{
+    .metrics .container{
+        display: flex;
         flex-direction: column;
         text-align: center;
        

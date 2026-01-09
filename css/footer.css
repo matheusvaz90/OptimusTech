@@ -51,3 +51,11 @@ footer .copyright p{
     color: #667085;
     margin-top: 32px;
 }
+
+
+@media screen and (max-width:468px) {
+  .newsletter-box button{
+    margin-top: 15px;
+  }
+  
+}
